@@ -10,4 +10,6 @@ public interface IUserService {
     User findById(Integer userId);
 
     void updateUser(User user);
+
+    void find();
 }
